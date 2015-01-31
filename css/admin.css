@@ -1,0 +1,108 @@
+/* Liste des services */
+.line {
+    background: #EFEFEF;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    color: #000;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    overflow: hidden;
+    padding: 8px;
+}
+.line:hover {
+    background: #2EA2CC;
+    color: #fff;
+}
+
+/* Fond semi transparent */
+.hoveradd_b {
+    background: #606060;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+/* Container de la configuration */
+div.hoveradd {
+    background: #fff;
+    display: block;
+    height: Calc(100% - 160px);
+    left: 0;
+    margin: 0 auto;
+    max-width: 930px;
+    overflow: auto;
+    padding: 0 30px 30px;
+    position: fixed;
+    right: 0;
+    top: 80px;    
+    width: 100%;
+    z-index: 10000;
+}
+
+/* Bouton retour */
+div.hoveradd div.h3inline {
+    background: #FFF;
+    border-bottom: 5px solid #eee;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    padding-top: 30px;
+    position: fixed;
+    width: 930px;
+}
+div.hoveradd div.h3inline h3 {
+    background: #999;
+    color: #FFF;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+    margin: 0;
+    padding: 10px 0px;
+    text-align: center;
+    width: 22%;
+}
+
+/* Choix du sous service */
+.select_s {
+    background-size: initial !important;
+    border: 1px solid #C9C9C9;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 12px;
+    height: 120px;
+    margin: 0 22px 15px 0;
+    padding: 8px;
+    width: 30%;
+}
+.select_s:hover {
+    background-size: initial !important;
+    border: 5px solid #78B27A;
+}
+
+/* Code source des marqueurs */
+span.code {
+    background: #333;
+    color: white;
+    display: block;
+    font-family: courier;
+    margin-top: 20px;
+    overflow: hidden;
+    padding: 10px;
+    white-space: pre-wrap;
+}
+span.code b {
+    color: green;
+}
+
+/* Common */
+.clear {
+    display: block;
+}

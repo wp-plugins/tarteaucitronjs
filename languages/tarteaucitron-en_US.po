@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-01-30 15:39+0100\n"
+"PO-Revision-Date: 2015-01-30 16:14+0100\n"
+"Last-Translator: Amauri CHAMPEAUX <amauri@champeaux.fr>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: C:\Users\AmauriC\Documents\Works\tarteaucitron-wordpress/Admin.php:44
+msgid "Le module tarteaucitron.js a été correctement installé !"
+msgstr "The tarteaucitron.js module was successfully installed!"
+
+#: C:\Users\AmauriC\Documents\Works\tarteaucitron-wordpress/Admin.php:44
+msgid "Configurer le module"
+msgstr "Configure the module"
+
+#: C:\Users\AmauriC\Documents\Works\tarteaucitron-wordpress/Admin.php:85
+msgid ""
+"Avant d'utiliser les services tarteaucitron, vous devez souscrire à un "
+"abonnement."
+msgstr "Before using the services, you must purchase a subscription."
+
+#: C:\Users\AmauriC\Documents\Works\tarteaucitron-wordpress/Admin.php:87
+msgid "Connexion"
+msgstr "Connexion"
+
+#: C:\Users\AmauriC\Documents\Works\tarteaucitron-wordpress/Admin.php:91
+msgid "Email"
+msgstr "Mail"
+
+#: C:\Users\AmauriC\Documents\Works\tarteaucitron-wordpress/Admin.php:95
+msgid "Mot de passe"
+msgstr "Password"
+
+#: C:\Users\AmauriC\Documents\Works\tarteaucitron-wordpress/Admin.php:111
+msgid "Abonnement valide jusqu'au"
+msgstr "Subscription valid until"
+
+#: C:\Users\AmauriC\Documents\Works\tarteaucitron-wordpress/Admin.php:113
+msgid "Abonnement expiré !"
+msgstr "Subscription expired!"
+
+#: C:\Users\AmauriC\Documents\Works\tarteaucitron-wordpress/Admin.php:113
+msgid "Recharger"
+msgstr "Reload"
+
+#: C:\Users\AmauriC\Documents\Works\tarteaucitron-wordpress/Admin.php:124
+msgid "Déconnexion"
+msgstr "Logout"
+
+#: C:\Users\AmauriC\Documents\Works\tarteaucitron-wordpress/Admin.php:147
+msgid "Réglages"
+msgstr "Settings"
+
+#: C:\Users\AmauriC\Documents\Works\tarteaucitron-wordpress/Sidebars.php:54
+msgid "Avant les articles"
+msgstr "Before the articles"
+
+#: C:\Users\AmauriC\Documents\Works\tarteaucitron-wordpress/Sidebars.php:55
+msgid "Placez des widgets au dessus de vos articles et pages."
+msgstr "Place widgets on top of your articles and pages."
+
+#: C:\Users\AmauriC\Documents\Works\tarteaucitron-wordpress/Sidebars.php:57
+msgid "Après les articles"
+msgstr "After the articles"
+
+#: C:\Users\AmauriC\Documents\Works\tarteaucitron-wordpress/Sidebars.php:58
+msgid "Placez des widgets en dessous de vos articles et pages."
+msgstr "Place widgets below your articles and pages."
+
+#: C:\Users\AmauriC\Documents\Works\tarteaucitron-wordpress/Widgets.php:13
+msgid "Ajout des services."
+msgstr "Adding services."

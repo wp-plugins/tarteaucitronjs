@@ -1,0 +1,14 @@
+.tarteaucitronWidget25p {
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+
+.tarteaucitronWidget100p {
+    text-align: center;
+    width: 100%;
+}
+
+.clear {
+	clear: both;
+}
