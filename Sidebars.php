@@ -7,7 +7,7 @@ defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
  * 4x 25%
  */
 function tarteaucitronWidgetBeforePost($content) {
-	if (is_singular(array('post', 'page')) && is_active_sidebar( 'tarteaucitron-before-post' ) && is_main_query()) { 
+	if (is_singular(array('post')) && is_active_sidebar( 'tarteaucitron-before-post' ) && is_main_query()) { 
         dynamic_sidebar('tarteaucitron-before-post');
     }
 	return '<div class="clear"></div>'.$content;
@@ -19,7 +19,7 @@ add_filter('the_content', 'tarteaucitronWidgetBeforePost', 50);
  * 1x 100%
  */
 function tarteaucitronWidgetBeforePostXL($content) {
-	if (is_singular(array('post', 'page')) && is_active_sidebar('tarteaucitron-before-post-xl') && is_main_query()) { 
+	if (is_singular(array('post')) && is_active_sidebar('tarteaucitron-before-post-xl') && is_main_query()) { 
         dynamic_sidebar('tarteaucitron-before-post-xl'); 
     }
 	return '<div class="clear"></div>'.$content;
@@ -31,7 +31,7 @@ add_filter('the_content', 'tarteaucitronWidgetBeforePostXL', 50);
  * 4x 25%
  */
 function tarteaucitronWidgetAfterPost($content) {
-	if (is_singular(array('post', 'page')) && is_active_sidebar('tarteaucitron-after-post') && is_main_query()) {
+	if (is_singular(array('post')) && is_active_sidebar('tarteaucitron-after-post') && is_main_query()) {
         ob_start();
 		dynamic_sidebar('tarteaucitron-after-post');
         $sidebar = ob_get_contents();
@@ -46,7 +46,7 @@ add_filter('the_content', 'tarteaucitronWidgetAfterPost', 50);
  * 1x 100%
  */
 function tarteaucitronWidgetAfterPostXL($content) {
-	if (is_singular(array('post', 'page')) && is_active_sidebar('tarteaucitron-after-post-xl') && is_main_query()) {
+	if (is_singular(array('post')) && is_active_sidebar('tarteaucitron-after-post-xl') && is_main_query()) {
         ob_start();
 		dynamic_sidebar('tarteaucitron-after-post-xl');
         $sidebar = ob_get_contents();
