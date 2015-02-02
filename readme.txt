@@ -1,15 +1,64 @@
 === tarteaucitron.js ===
 Contributors: Amauri CHAMPEAUX
-Tags: cookie, europe, européenne, loi, cookie law
+Tags: cookie, europe, européenne, loi, cookie law, social network, audience, analytic, ads
 Requires at least: 2.8
 Tested up to: 4
 Stable tag: 1
 
-Intégrez facilement les services supportés par [tarteaucitron.js](https://opt-out.ferank.eu/) sur votre blog.
+Votre blog conforme à la législation sur les cookies en quelques clics !
 
 == Description ==
 
-En quelques clics vous allez pouvoir ajouter sur votre blog vos services de mesure d'audience, les boutons vers les réseaux sociaux et les blocs d'annonces publicitaires de vos régies publicitaires tout en respectant la législation européenne sur les cookies.
+tarteaucitron.js est un script gérant la demande de consentement des services soumis à la législation (mesure d'audience, réseaux sociaux, publicités).
+
+**Simple comme bonjour**
+
+L'installation des services se fait à 100% depuis l'espace admin.
+
+Vous sélectionner votre service, le configurez et entrez vos identifiants. C'est tout!
+
+**Sidebars**
+
+Le plugin installe 4 sidebars pour vous permettre d'ajouter des services près de vos articles :
+
+* au dessus des articles pour 1 widget
+* au dessus des articles pour 4 widgets
+* en dessous des articles pour 1 widget
+* en dessous des articles pour 4 widgets
+
+**Services supportés**
+
+La liste des services pris en charge par tarteaucitron.js est en constante évolution, n'hésitez pas à [me contacter](https://opt-out.ferank.eu/contact.php) pour ajouter un service.
+
+* Commentaire
+ * Disqus
+* Mesure d'audience
+ * Alexa
+ * Clicky
+ * FERank
+ * Google Analytics (ga.js)
+ * Google Analytics (universal)
+ * Xiti
+* Régie publicitaire
+ * Google Adsense
+* Réseaux sociaux
+ * AddThis
+ * Facebook
+ * Google+
+ * Linkedin
+ * Pinterest
+ * Shareaholic
+ * ShareThis
+ * Twitter
+* Support
+ * UserVoice
+ * Zopim
+* Vidéo
+ * Dailymotion
+ * Vimeo
+ * Youtube
+
+**Option pro**
 
 Cette extension nécessite [un abonnement à la version pro de tarteaucitron.js](https://opt-out.ferank.eu/pro/)
 
