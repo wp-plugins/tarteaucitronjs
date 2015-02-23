@@ -30,33 +30,60 @@ Le plugin installe 4 sidebars pour vous permettre d'ajouter des services près d
 
 La liste des services pris en charge par tarteaucitron.js est en constante évolution, n'hésitez pas à [me contacter](https://opt-out.ferank.eu/contact.php) pour ajouter un service.
 
+* APIs
+  * Google jsapi
+  * Google Maps
+  * Google Tag Manager
+  * Typekit (adobe)
+
 * Commentaire
- * Disqus
+  * Disqus
+  * Facebook (commentaire)
+
 * Mesure d'audience
- * Alexa
- * Clicky
- * FERank
- * Google Analytics (ga.js)
- * Google Analytics (universal)
- * Xiti
+  * Alexa
+  * Clicky
+  * FERank
+  * Google Analytics (ga.js)
+  * Google Analytics (universal)
+  * VisualRevenue
+  * Xiti
+
 * Régie publicitaire
- * Google Adsense
+  * Clicmanager
+  * Criteo
+  * FERank (pub)
+  * Google Adsense
+  * Google Adsense Search (form)
+  * Google Adsense Search (result)
+  * Google Adwords (conversion)
+  * Google Adwords (remarketing)
+  * Pubdirecte
+  * vShop
+
 * Réseaux sociaux
- * AddThis
- * Facebook
- * Google+
- * Linkedin
- * Pinterest
- * Shareaholic
- * ShareThis
- * Twitter
+  * AddThis
+  * AddToAny (feed)
+  * AddToAny (share)
+  * Facebook
+  * Facebook (like box)
+  * Google+
+  * Google+ (badge)
+  * Linkedin
+  * Pinterest
+  * Shareaholic
+  * ShareThis
+  * Twitter
+
 * Support
- * UserVoice
- * Zopim
+  * UserVoice
+  * Zopim
+
 * Vidéo
- * Dailymotion
- * Vimeo
- * Youtube
+  * Dailymotion
+  * Vimeo
+  * Youtube
+
 
 **Option pro**
 
