@@ -50,6 +50,7 @@ La liste des services pris en charge par tarteaucitron.js est en constante évol
   * Xiti
 
 * Régie publicitaire
+  * Amazon
   * Clicmanager
   * Criteo
   * FERank (pub)
