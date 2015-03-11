@@ -46,6 +46,7 @@ La liste des services pris en charge par tarteaucitron.js est en constante évol
   * FERank
   * Google Analytics (ga.js)
   * Google Analytics (universal)
+  * StatCounter
   * VisualRevenue
   * Xiti
 
