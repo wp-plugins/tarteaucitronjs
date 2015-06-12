@@ -3,7 +3,7 @@ Contributors: Amauri CHAMPEAUX
 Tags: cookie, europe, européenne, loi, cookie law, social network, audience, analytic, ads
 Requires at least: 2.8
 Tested up to: 4
-Stable tag: 1
+Stable tag: 1.0.1
 
 Votre blog conforme à la législation sur les cookies en quelques clics !
 
@@ -30,27 +30,7 @@ Le plugin installe 4 sidebars pour vous permettre d'ajouter des services près d
 
 La liste des services pris en charge par tarteaucitron.js est en constante évolution, n'hésitez pas à [me contacter](https://opt-out.ferank.eu/contact.php) pour ajouter un service.
 
-* APIs
-  * Google jsapi
-  * Google Maps
-  * Google Tag Manager
-  * Typekit (adobe)
-
-* Commentaire
-  * Disqus
-  * Facebook (commentaire)
-
-* Mesure d'audience
-  * Alexa
-  * Clicky
-  * FERank
-  * Google Analytics (ga.js)
-  * Google Analytics (universal)
-  * StatCounter
-  * VisualRevenue
-  * Xiti
-
-* Régie publicitaire
+* Advertising network
   * Amazon
   * Clicmanager
   * Criteo
@@ -61,12 +41,37 @@ La liste des services pris en charge par tarteaucitron.js est en constante évol
   * Google Adwords (conversion)
   * Google Adwords (remarketing)
   * Pubdirecte
+  * Twenga
   * vShop
 
-* Réseaux sociaux
+* APIs
+  * Google jsapi
+  * Google Maps
+  * Google Tag Manager
+  * Timeline JS
+  * Typekit (adobe)
+
+* Audience measurement
+  * Alexa
+  * Clicky
+  * Crazyegg
+  * FERank
+  * Get+
+  * Google Analytics (ga.js)
+  * Google Analytics (universal)
+  * StatCounter
+  * VisualRevenue
+  * Xiti
+
+* Comment
+  * Disqus
+  * Facebook (commentaire)
+
+* Social network
   * AddThis
   * AddToAny (feed)
   * AddToAny (share)
+  * eKomi
   * Facebook
   * Facebook (like box)
   * Google+
@@ -76,13 +81,18 @@ La liste des services pris en charge par tarteaucitron.js est en constante évol
   * Shareaholic
   * ShareThis
   * Twitter
+  * Twitter (cards)
+  * Twitter (timelines)
 
 * Support
   * UserVoice
   * Zopim
 
-* Vidéo
+* Video
+  * Calameo
   * Dailymotion
+  * Prezi
+  * SlideShare
   * Vimeo
   * Youtube
 

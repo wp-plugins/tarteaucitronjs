@@ -3,7 +3,7 @@
 Plugin Name: tarteaucitron.js
 Plugin URI: https://opt-out.ferank.eu/
 Description: Installer le script tarteaucitron.js
-Version: 1
+Version: 1.0.1
 Author: Amauri CHAMPEAUX
 Author URI: http://frnk.fr/a-propos
 Domain Path: /languages/
@@ -46,9 +46,10 @@ function tarteaucitron_post($query, $needLogin = 1) {
  * CSS et Javascript
  */
 function tarteaucitron_user_css_js() {
+	$domain = $_SERVER['SERVER_NAME'];
 	wp_register_style('tarteaucitron', plugins_url('tarteaucitronjs/css/user.css'));
 
     wp_enqueue_style('tarteaucitron');
-    wp_enqueue_script('tarteaucitron', '//opt-out.ferank.eu/tarteaucitron.js?uuid='.get_option('tarteaucitronUUID'), '', '', TRUE);
+    wp_enqueue_script('tarteaucitron', '//opt-out.ferank.eu/tarteaucitron.js?domain='.$domain.'&uuid='.get_option('tarteaucitronUUID'), '', '', TRUE);
 }
 add_action('wp_enqueue_scripts', 'tarteaucitron_user_css_js');
