@@ -31,6 +31,7 @@ add_filter('the_content', 'tarteaucitronWidgetBeforePostXL', 50);
  * 4x 25%
  */
 function tarteaucitronWidgetAfterPost($content) {
+	$sidebar = '';
 	if (is_singular(array('post')) && is_active_sidebar('tarteaucitron-after-post') && is_main_query()) {
         ob_start();
 		dynamic_sidebar('tarteaucitron-after-post');
@@ -46,6 +47,7 @@ add_filter('the_content', 'tarteaucitronWidgetAfterPost', 50);
  * 1x 100%
  */
 function tarteaucitronWidgetAfterPostXL($content) {
+	$sidebar = '';
 	if (is_singular(array('post')) && is_active_sidebar('tarteaucitron-after-post-xl') && is_main_query()) {
         ob_start();
 		dynamic_sidebar('tarteaucitron-after-post-xl');

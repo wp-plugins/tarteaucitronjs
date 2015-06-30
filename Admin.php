@@ -56,7 +56,7 @@ if(!class_exists('tarteaucitron_Admin'))
                 }
             }
             
-            if($_POST['tarteaucitronEmail'] != '' AND $_POST['tarteaucitronPass'] != '') {
+            if(isset($_POST['tarteaucitronEmail']) AND isset($_POST['tarteaucitronPass'])) {
                 $result = tarteaucitron_post('login=1&email='.$_POST['tarteaucitronEmail'].'&pass='.$_POST['tarteaucitronPass'].'&website='.$_SERVER['SERVER_NAME'], 0);
                 if($result != '0') {
                     $ret = explode('=', $result);

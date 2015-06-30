@@ -77,7 +77,10 @@ function tarteaucitron_register() {
           $multi_number = preg_replace('#[^-]+-([0-9]+)$#', '$1', $widget_id);
 
           if($id_base == 'tarteaucitron_widget') {
-              $service = $_POST['wp_tarteaucitron__service'];
+			  $service = '';
+              if (isset($_POST['wp_tarteaucitron__service'])) {
+				  $service = $_POST['wp_tarteaucitron__service'];
+			  }
               if(isset($_POST['tarteaucitron_send_services']) AND $service != '') {
                   $r = 'service='.$service.'&configure_services='.$_POST['wp_tarteaucitron__configure_services'].'&';
                   foreach ($_POST as $key => $val) {
