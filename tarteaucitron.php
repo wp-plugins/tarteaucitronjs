@@ -5,7 +5,7 @@ Plugin URI: https://opt-out.ferank.eu/
 Description: Installer le script tarteaucitron.js
 Version: 1.0.1
 Author: Amauri CHAMPEAUX
-Author URI: http://frnk.fr/a-propos
+Author URI: http://amauri.champeaux.fr/a-propos
 Domain Path: /languages/
 */
 
