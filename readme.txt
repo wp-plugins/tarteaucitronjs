@@ -3,7 +3,7 @@ Contributors: Amauri CHAMPEAUX
 Tags: cookie, europe, européenne, loi, cookie law, social network, audience, analytic, ads
 Requires at least: 2.8
 Tested up to: 4
-Stable tag: 1.0.1
+Stable tag: trunk
 
 Votre blog conforme à la législation sur les cookies en quelques clics !
 
